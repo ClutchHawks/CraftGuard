@@ -17,6 +17,9 @@ It also shows:
 - Whether **High Quality synthesis is currently disabled** (you're wearing a guild ring or Artisan's Ring that blocks HQ), and any HQ% chance bonus from Craftmaster's Ring(s).
 - Whether **food is currently active** (a simple yes/no — it doesn't try to track which food or its specific bonus).
 
+<img width="444" height="537" alt="image" src="https://github.com/user-attachments/assets/57808039-062d-4b8b-bf9f-afc4ece05d95" />
+
+
 ### Blocklist protection
 
 CraftGuard can actively **block outgoing synthesis attempts** that use a crystal or ingredient on your personal blocklist, but only while HQ is currently disabled (i.e. you're wearing a ring that prevents HQ results). This is meant to stop you from accidentally burning valuable materials on a synth that can never come out HQ.
