@@ -26,6 +26,9 @@ CraftGuard can actively **block outgoing synthesis attempts** that use a crystal
 
 It works by intercepting the client's outgoing "Synth" packet (`0x096`) before it's sent to the server and cancelling it if a match is found — confirmed against CatsEyeXI via a real packet capture, not just assumed from generic FFXI packet docs. If it ever misbehaves, `/cg blocklist off` disables the blocking instantly without losing your saved list.
 
+<img width="1451" height="44" alt="image" src="https://github.com/user-attachments/assets/9f05ed22-951c-46ee-b255-fb70affd6e0d" />
+
+
 Your blocklist is stored per-character in Ashita's settings and persists across sessions.
 
 ## Installation
